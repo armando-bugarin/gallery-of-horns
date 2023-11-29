@@ -1,16 +1,21 @@
-import HornedBeast from "./HornedBeast";
 
-function Gallery() {
+import HornedBeast from "./HornedBeast";
+import Container from'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from'react-bootstrap/Col';
+
+function Gallery(props) {
     return (
         <>
-            <HornedBeast
-                image_url="https://placehold.co/600x400" alt="place holder"
-                title="newTitle"
-                description="new description" />
-            <HornedBeast
-                image_url="https://placehold.co/600x400" alt="place holder"
-                title="newTitle"
-                description="new description" />
+            <h2>{props.message}</h2>
+            <Container>
+                <Row>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                </Row>
+            </Container>
         </>
     )
 }
