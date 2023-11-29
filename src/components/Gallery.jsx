@@ -1,16 +1,18 @@
-import HornedBeast from './HornedBeast.jsx';
+import HornedBeast from "./HornedBeast";
 
-function Gallery(props) {
+function Gallery() {
     return (
-        <div>
-            <h2>Gallery Component</h2>
-            <p>horned gallery text</p>
-            <section>
-                <img src="" alt="" />
-                <img src="" alt="" />
-            </section>
-        </div>
-    );
+        <>
+            <HornedBeast
+                image_url="https://placehold.co/600x400" alt="place holder"
+                title="newTitle"
+                description="new description" />
+            <HornedBeast
+                image_url="https://placehold.co/600x400" alt="place holder"
+                title="newTitle"
+                description="new description" />
+        </>
+    )
 }
 
 export default Gallery;

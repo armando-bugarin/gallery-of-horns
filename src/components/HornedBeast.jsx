@@ -1,7 +1,11 @@
-function hornedBeast1(title, image_url, description) {
-    return {
-        title: title ||"horned beasts",
-        image_url: image_url ||"",
-        description: description || "",
-    };
+function HornedBeast(props) {
+    return (
+        <div>
+            <h1>{props.title}</h1>
+            <img src={props.image_url} alt="" />
+            <p>{props.description}</p>
+        </div>
+    );
 }
+
+export default HornedBeast;
