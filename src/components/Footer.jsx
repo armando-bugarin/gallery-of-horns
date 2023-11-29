@@ -1,8 +1,13 @@
+
+import Navbar from "react-bootstrap/Navbar";
+
 function Footer(props) {
     return (
-        <footer>
-            <p>Tracking things since &copy;{props.copyright}</p>
-        </footer>
+        <Navbar bg="dark" variant="dark">
+            <Navbar.Brand>
+                <p>Tracking things since &copy;{props.copyright}</p>
+            </Navbar.Brand>
+        </Navbar>
     );
 }
 
