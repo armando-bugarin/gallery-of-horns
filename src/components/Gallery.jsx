@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import HornedBeast from "./HornedBeast";
+import React, {useState} from "react";
 
 function Gallery(props) {
     return (
@@ -11,7 +12,7 @@ function Gallery(props) {
             <Container>
                 <Row>
                     <Col>
-                        <HornedBeast image_url={props.imageUrls[0].image_url} />
+                        <HornedBeast image_url={props.imageUrls[0].image_url} displayModal={props.displayModal} />
                     </Col>
                     <Col>
                         <HornedBeast image_url={props.imageUrls[1].image_url} />
@@ -79,7 +80,6 @@ function Gallery(props) {
                         <HornedBeast image_url={props.imageUrls[11].image_url} />
                     </Col>
                 </Row>
-
             </Container>
         </>
     );
