@@ -26,3 +26,17 @@ Start time: 3 pm
 Finish time: 8 pm
 
 Actual time needed to complete: 5 hours
+
+![lab 3 lightouse report]()
+
+### Time Estimate Lab 3
+
+Number and name of feature:
+
+Estimate of time needed to complete: 4 hours
+
+Start time: 2 pm
+
+Finish time:
+
+Actual time needed to complete:

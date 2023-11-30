@@ -10,9 +10,10 @@ export default function HornedBeast(props) {
     function handleClick() {
         if (status === "like") {
             setFavoriteCount(favoriteCount + 1);
-        } else {
-            setFavoriteCount(favoriteCount + 0);
         }
+        props.displayModal(
+            props.title
+        )
     }
 
     return (
@@ -26,15 +27,3 @@ export default function HornedBeast(props) {
         </div>
     );
 }
-
-// function HornedBeast(props) {
-//     return (
-//         <div>
-//             <h1>{props.title}</h1>
-//             <img src={props.image_url} alt="" />
-//             <p>{props.description}</p>
-//         </div>
-//     );
-// }
-
-// export default HornedBeast;
