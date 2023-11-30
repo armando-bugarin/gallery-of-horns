@@ -27,7 +27,9 @@ Finish time: 8 pm
 
 Actual time needed to complete: 5 hours
 
-![lab 3 lightouse report]()
+### Lighthouse Report Lab 3
+
+![lab 3 lightouse report](lab3lh.png)
 
 ### Time Estimate Lab 3
 

@@ -11,9 +11,8 @@ export default function HornedBeast(props) {
         if (status === "like") {
             setFavoriteCount(favoriteCount + 1);
         }
-        props.displayModal(
-            props.title
-        )
+        props.displayModal(props.title);
+            // props.title
     }
 
     return (
