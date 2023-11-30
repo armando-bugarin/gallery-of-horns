@@ -31,12 +31,12 @@ Actual time needed to complete: 5 hours
 
 ### Time Estimate Lab 3
 
-Number and name of feature:
+Number and name of feature: Creating Modal took the whole time
 
 Estimate of time needed to complete: 4 hours
 
 Start time: 2 pm
 
-Finish time:
+Finish time: 9 pm
 
-Actual time needed to complete:
+Actual time needed to complete: 7 hours
