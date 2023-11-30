@@ -13,8 +13,9 @@ function App() {
   const [show, setShow] = React.useState(false);
   const [selectedBeast, setSelectedBeast] = React.useState({});
 
-  function dispayModal(name) {
-    const selected = imageUrls.find(beast => beast.name === name);
+  function dispayModal(title) {
+    const selected = imageUrls.find(beast => beast.title === title);
+    console.log(selected);
     setSelectedBeast(selected);
     setShow(true);
   }
