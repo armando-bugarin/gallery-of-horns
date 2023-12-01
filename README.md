@@ -45,4 +45,4 @@ Actual time needed to complete: 7 hours
 
 ### Lighthouse Report Lab 4
 
-![lab 4 lightouse report]()
+![lab 4 lightouse report](lh-lab4.png)
