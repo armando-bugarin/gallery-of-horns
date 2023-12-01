@@ -42,3 +42,7 @@ Start time: 2 pm
 Finish time: 9 pm
 
 Actual time needed to complete: 7 hours
+
+### Lighthouse Report Lab 4
+
+![lab 4 lightouse report]()
